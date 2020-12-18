@@ -571,8 +571,8 @@ class AudioPlayer {
       'backwardSkipInterval': backwardSkipInterval.inSeconds,
       'duration': duration.inSeconds,
       'elapsedTime': elapsedTime.inSeconds,
-      'hasPreviousTrack': hasPreviousTrack,
-      'hasNextTrack': hasNextTrack
+      'enablePreviousTrackButton': hasPreviousTrack,
+      'enableNextTrackButton': hasNextTrack
     });
   }
 
